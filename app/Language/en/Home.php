@@ -5,8 +5,8 @@
  */
 return [
 	'pageTitle'		 => 'CodeIgniter Web Framework',
-	'jumboTitle'	 => 'CodeIgniter Rocks',
-	'jumboMessage'	 => 'CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications.',
+	'jumboTitle'	 => 'Welcome to CodeIgniter',
+	'jumboMessage'	 => 'The small framework with powerful features',
 	'block1Title'	 => 'Download',
 	'block1Desc'	 => 'The latest is Version ',
 	'block2Title'	 => 'Read the Manual',

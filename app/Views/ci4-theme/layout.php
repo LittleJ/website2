@@ -14,17 +14,14 @@
   <body>
 
 	<!-- HEADER: MENU + HEROE SECTION -->
+
 	<header>
 
 		<?= $navbar ?>
 
-	</header>
+		<?= $this->include('ci4-theme/_heroe') ?>
 
-		<?php if(empty($title)) : ?>
-            <?= $this->include('theme/jumbotitle') ?>
-        <?php else : ?>
-            <?= $this->include('theme/title') ?>
-        <?php endif ?>
+	</header>
 
 		<div id="content">
 			<div class="container">
