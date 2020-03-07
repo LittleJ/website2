@@ -1,6 +1,6 @@
 <div class="environment">
 
-  <?= $footerbar ?>
+  <?= $footer_nav ?>
 
   <?= $githubWidget ?>
 

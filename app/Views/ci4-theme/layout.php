@@ -13,22 +13,17 @@
 
   <body>
 
-
   <!-- Header: navbar + heroe section ----------------------------------------->
 
   <header>
 
-    <?= $navbar ?>
-
-    <?= $this->include('ci4-theme/_heroe') ?>
+    <?= $this->include('ci4-theme/_header') ?>
 
   </header>
-
 
   <!-- Content ---------------------------------------------------------------->
 
   <?= $this->renderSection('content') ?>
-
 
   <!-- Footer ----------------------------------------------------------------->
 
@@ -38,11 +33,9 @@
 
   </footer>
 
-
   <!-- JS scripts ------------------------------------------------------------->
 
   <?= $this->include('ci4-theme/_scripts') ?>
-
 
   </body>
 

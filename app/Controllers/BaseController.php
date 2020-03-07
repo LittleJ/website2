@@ -103,7 +103,7 @@ class BaseController extends Controller
 			$menuitem['name'] = lang('Site.' . $menuitem['name']); // localize
 		}
 		$this->data['menubar'] = view('theme/menubar', $choices);
-		$this->data['navbar'] = view('ci4-theme/_navbar', $choices); // ci4-theme
+		$this->data['header_nav'] = view('ci4-theme/_header_nav', $choices); // ci4-theme
 
 		// Massage the footer menu
 		$choices = $this->config->footerChoices;
@@ -114,6 +114,7 @@ class BaseController extends Controller
 			$menuitem['name'] = lang('Site.' . $menuitem['name']); // localize
 		}
 		$this->data['footerbar'] = view('theme/footerbar', $choices);
+		$this->data['footer_nav'] = view('ci4-theme/_footer_nav', $choices); // ci4-theme
 	}
 
 }

@@ -1,3 +1,5 @@
+<?= $header_nav ?>
+
 <div class="heroe">
 
   <h1><?= esc(lang('Home.jumboTitle')) ?></h1>
