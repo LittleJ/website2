@@ -1,4 +1,4 @@
-<?= $this->extend('theme/template') ?>
+<?= $this->extend('ci4-theme/layout') ?>
 
 <?= $this->section('content') ?>
     <!-- Big Links -->

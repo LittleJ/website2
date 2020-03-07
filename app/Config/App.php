@@ -15,10 +15,10 @@ class App extends BaseConfig
 	public $menuChoices = [
 		'menudata' => [
 			['name' => 'topNav1', 'link' => '/home'],
-			['name' => 'topNav2', 'link' => '/download'],
-			['name' => 'topNav3', 'link' => '/docs'],
-			['name' => 'topNav4', 'link' => '/community'],
-			['name' => 'topNav5', 'link' => '/contribute']
+			['name' => 'topNav2', 'link' => '/docs'],
+			['name' => 'topNav3', 'link' => '/community'],
+			['name' => 'topNav4', 'link' => '/contribute'],
+			['name' => 'topNav5', 'link' => '/download']
 		]
 	];
 	// data for the footer navbar; names are localized message keys

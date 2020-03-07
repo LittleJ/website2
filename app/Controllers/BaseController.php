@@ -103,6 +103,7 @@ class BaseController extends Controller
 			$menuitem['name'] = lang('Site.' . $menuitem['name']); // localize
 		}
 		$this->data['menubar'] = view('theme/menubar', $choices);
+		$this->data['navbar'] = view('ci4-theme/navbar', $choices); // ci4-theme
 
 		// Massage the footer menu
 		$choices = $this->config->footerChoices;
